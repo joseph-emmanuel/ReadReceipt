@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "read-receipt-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/readReceiptWebpart/ReadReceiptWebpartWebPart.js",
+          "manifest": "./src/webparts/readReceiptWebpart/ReadReceiptWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReadReceiptWebpartWebPartStrings": "lib/webparts/readReceiptWebpart/loc/{locale}.js"
+  }
+}
